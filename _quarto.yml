@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Nevin Scoop"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/petebrown
+      - icon: twitter
+        href: https://twitter.com/beteprown
+format:
+  html:
+    theme: flatly
+    css: styles.css

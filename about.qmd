@@ -1,0 +1,19 @@
+---
+title: "About"
+image: https://avatars.githubusercontent.com/u/15838790?s=400&u=e7da2294f9902a5b72ffdad43acf83977b7b70f6&v=4
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/petebrown
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/beteprown
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pete-brown-b49412108/
+
+---
+
+This nonsense is produced by Pete Brown.

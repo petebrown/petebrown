@@ -1,0 +1,44 @@
+{
+  "about.qmd": {
+    "about.html": "ceff1ba2"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "6bd65860"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "49541fee"
+  },
+  "index.qmd": {
+    "index.html": "052390f1"
+  },
+  "posts/valentines-day/index.qmd": {
+    "index.html": "5557614b"
+  },
+  "posts/january-signings/index.qmd": {
+    "index.html": "2a6c5dd8"
+  },
+  "posts/oldest-players/index.qmd": {
+    "index.html": "86f2e1f6"
+  },
+  "posts/national-league-xi/index.qmd": {
+    "index.html": "aef0b6af"
+  },
+  "posts/average-age-regulars/index.qmd": {
+    "index.html": "2410b9c8"
+  },
+  "posts/appearances-by-opening-day-starters/index.qmd": {
+    "index.html": "3e5c18ba"
+  },
+  "posts/average-age-starting-xi/index.qmd": {
+    "index.html": "21254585"
+  },
+  "posts/average-age-regulars/january-signings/index.qmd": {
+    "index.html": "435ad866"
+  },
+  "posts/2022-league-demise/index.qmd": {
+    "index.html": "5083cc87"
+  },
+  "posts/friday-night-football/index.qmd": {
+    "index.html": "a88573f1"
+  }
+}
