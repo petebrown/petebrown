@@ -6,7 +6,6 @@ date: "07/24/2022"
 date-modified: "02/21/2023"
 image: phil-kiel-nPI3y9Qiu1g-unsplash.jpg
 categories:
-    - analysis
     - 2022/23
 draft: false
 ---

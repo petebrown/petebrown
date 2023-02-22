@@ -6,9 +6,7 @@ date: "07/10/2022"
 date-modified: "02/21/2023"
 image: phil-kiel-nSLpAwGQZOE-unsplash.jpg
 categories:
-    - analysis
     - friday night football
-    - history
 draft: false
 ---
 
