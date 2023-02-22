@@ -10,12 +10,12 @@ website:
     right:
       - archive.qmd
       - about.qmd
-      - icon: rss
-        href: sitemap.xml
       - icon: github
         href: https://github.com/petebrown
       - icon: twitter
         href: https://twitter.com/beteprown
+      - icon: rss
+        href: sitemap.xml
 format:
   html:
     # theme: flatly
@@ -23,3 +23,7 @@ format:
     #css: theme.css
     header-includes: <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" type="text/css"/>
     mainfont: "Helvetica Neue, Open Sans"
+    title-block-style: default
+    title-block-banner: 'white'
+    title-block-banner-color: 'black'
+    title-block-categories: false

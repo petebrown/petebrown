@@ -1,13 +1,48 @@
 /*-- scss:defaults --*/
-$primary:  #06436e !default;
+$primary:  #06436ef2 !default;
+
+// $navbar-bg: #f8f9fa;
+// $navbar-fg: rgba(44,89,123,.8);
 
 /*-- scss:rules --*/
+#quarto-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
 .input-group-text {
     background-color: #ffff;
 }
+
+.quarto-title-banner {
+    background-color: #ffff;
+    padding-bottom: 0;
+}
+
+.quarto-title .description {
+    margin-top: 0.5rem !important;
+}
+
 #quarto-margin-sidebar .category {
     font-size: $font-size-base * 0.9;
 }
 #TOC li {
     font-size: $font-size-base * 0.8;
+}
+
+.page-layout-article main.content p:first-of-type {
+    font-weight: bold;
+}
+
+#quarto-content main.content section.level2 {
+    margin-top: 2rem;
+}
+
+.navbar-title, .nav-item .menu-text {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+.aa-DetachedCancelButton {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
 }
