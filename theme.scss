@@ -38,9 +38,15 @@ $primary:  #06436ef2 !default;
     margin-top: 2rem;
 }
 
-.navbar-title, .nav-item .menu-text {
+.navbar-title, .nav-item .menu-text, .dropdown-item {
     font-family: 'Open Sans';
     font-weight: lighter;
+}
+
+.navbar .dropdown-item .dropdown-text {
+    font-weight: normal;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
 }
 
 .aa-DetachedCancelButton {
@@ -69,4 +75,3 @@ div.quarto-post .thumbnail img {
         height:100%;
     }
 }
-
