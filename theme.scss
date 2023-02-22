@@ -46,3 +46,11 @@ $primary:  #06436ef2 !default;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
 }
+
+img {
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+div.quarto-post .thumbnail img {
+    object-fit: contain;
+}
