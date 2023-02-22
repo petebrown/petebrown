@@ -8,6 +8,18 @@ website:
   description: "Pete Brown's blog, mostly compromised of data analysis of Tranmere Rovers using Python and R."
   navbar:
     right:
+      - text: "Apps"
+        menu:
+        - text: "Season Tracker"
+          href: apps/season-tracker
+        - text: "Head-to-Head: All teams"
+          href: apps/head2head-all
+        - text: "Head-to-Head: Individual teams"
+          href: apps/head2head
+        - text: "Managerial records: All managers"
+          href: apps/managers-all
+        - text: "Managerial records: Individual managers"
+          href: apps/managers
       - archive.qmd
       - about.qmd
       - icon: github
