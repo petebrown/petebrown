@@ -15,3 +15,5 @@ format:
   html:
     theme: flatly
     css: styles.css
+    mainfont: sans-serif
+    fontsize: 1.0em
