@@ -23,7 +23,8 @@ $primary:  #06436ef2 !default;
 }
 
 #quarto-margin-sidebar .category {
-    font-size: $font-size-base * 0.9;
+    font-size: $font-size-base * 0.85;
+    color: rgba(55, 54, 54, 0.825);
 }
 #TOC li {
     font-size: $font-size-base * 0.8;
