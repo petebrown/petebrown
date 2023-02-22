@@ -17,3 +17,11 @@ about:
 ---
 
 This nonsense is produced by Pete Brown.
+
+I grew up in a tiny village six miles outside Norwich.
+
+My dad was born and raised in Wirral. He took me to the 1990 Leyland Daf Cup Final.
+
+![1990 Leyland Daf Cup Final, Wembley Stadium.](IMG_5539.JPG "Pete at Wembley for the 1990 Leyland Daf Cup Final."){fig-alt="Pete at Wembley for the 1990 Leyland Daf Cup Final." width=80%}
+
+I haven't been able to get to a live game since a dismal 0-0 draw away at Braintree Town in August, 2015.
