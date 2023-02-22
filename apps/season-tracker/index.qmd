@@ -1,5 +1,5 @@
 ---
-title: "Season Progress Tracker"
+title: ""
 description: ""
 date: ""
 draft: true
