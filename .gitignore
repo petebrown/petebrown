@@ -161,5 +161,6 @@ cython_debug/
 
 /.quarto/
 .quarto/
+docs/CNAME
 /docs/CNAME
 /docs/.nojekyll
