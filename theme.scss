@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+$primary:  #06436e !default;
+
+/*-- scss:rules --*/
+.input-group-text {
+    background-color: #ffff;
+}
+#quarto-margin-sidebar .category {
+    font-size: $font-size-base * 0.9;
+}
+#TOC li {
+    font-size: $font-size-base * 0.8;
+}

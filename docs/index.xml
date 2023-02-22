@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>The Nevin Scoop</title>
+<link>https://petebrown.codes/index.html</link>
+<atom:link href="https://petebrown.codes/index.xml" rel="self" type="application/rss+xml"/>
+<description>Pete Brown&#39;s blog, mostly compromised of data analysis of Tranmere Rovers using Python and R.</description>
+<generator>quarto-1.2.313</generator>
+<lastBuildDate>Sun, 24 Jul 2022 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Tranmere’s slide down the league table, explained in four charts</title>
+  <dc:creator>Pete Brown</dc:creator>
+  <link>https://petebrown.codes/posts/2022-league-demise/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Micky Mellon’s sides usually thrive once the January transfer window has closed.</p>
+<p>In the 2018/19, new boys David Perkins, Kieron Morris, Ben Pringle and Sid Nelson sparked an upturn in form that culminated in promotion.</p>
+<p>The following season, the acquisitions of Peter Clarke, James Vaughan and Alex Woodyard brought an uptick in form that likely would have seen Rovers drag themselves clear of the relegation zone before COVID-19 curtailed the season.</p>
+<p>But the 2021/22 season bucked the trend in the most disappointing fashion.</p>
+<p>As of January 31, 2022, Rovers were sitting pretty in second position, seven points clear of Exeter City in eighth.</p>
+<p>Fast-forward to May and Mellon’s side ended the season in ninth, two points outside the play-off positions, while Exeter celebrated automatic promotion to League One.</p>
+<p>So where did it all go wrong?</p>
+<section id="rovers-forgot-how-to-keep-clean-sheets-on-the-road" class="level2">
+<h2 class="anchored" data-anchor-id="rovers-forgot-how-to-keep-clean-sheets-on-the-road">1. Rovers forgot how to keep clean sheets on the road</h2>
+<p>One major pitfall is that Rovers’ ability to keep clean sheets on the road deserted them after February 1st.</p>
+<p>Mellon faced criticism for being too cautious on the road. But the logic seems sound: Keep a clean sheet and you’re guaranteed to head home with at least one point.</p>
+<p>The problem is his side forgot how to shut out opposition sides.</p>
+<p>Between August and January, Rovers kept clean sheets in seven of their 13 games. In other words, they shut out the opposition more often than they conceded.</p>
+<p>But in the ten games after February 1st, they conceded in nine consecutive games, failing to keep a clean sheet until the 1-0 win at Leyton Orient on the final day of the season, when the play-offs already looked a distant pipe dream.</p>
+</section>
+<section id="while-tranmeres-home-form-remained-steady-after-february-1-their-away-form-nosedived" class="level2">
+<h2 class="anchored" data-anchor-id="while-tranmeres-home-form-remained-steady-after-february-1-their-away-form-nosedived">2. While Tranmere’s home form remained steady after February 1, their away form nosedived</h2>
+<p>At the end of January, Rovers were picking up an average of 2.14 points from home games and 1.38 from away games.</p>
+<p>By the end of the season, their home record had remained steady at 2.22 points per game.</p>
+<p>Their away record, however, plummeted, culminating in an average of 1.04 points-per-game.</p>
+<p>Had Rovers maintained their modest pre-February away record over the course of the season, they would have picked up an extra eight points – enough to achieve an automatic promotion position.</p>
+</section>
+<section id="rovers-conceded-too-many-costly-late-goals" class="level2">
+<h2 class="anchored" data-anchor-id="rovers-conceded-too-many-costly-late-goals">3. Rovers conceded too many costly late goals</h2>
+<p>Tranmere had the second meanest defence in League Two.</p>
+<p>The problem was not the number of goals they leaked, but when they were conceded.</p>
+<p>Rovers conceded 50 percent more goals in the second half of games than in the first.</p>
+<p>Most significantly, analysis shows they had a particularly bad habit of conceding in the final ten minutes of games.</p>
+<p>Those goals tend to prove particularly costly because so little time is left to fight back.</p>
+<p>And so it proved in 2021/22.</p>
+<p>The eight goals conceded in the final ten minutes of games effectively cost Rovers eight points. An extra eight points would have been enought to achieve automatic promotion.</p>
+<p>This habit fitted the wider trend of the season: It was a bigger problem away from home and it became worse from February onwards.</p>
+<p>In fact, seven of the eight goals conceded in the final ten minutes occured in games played between February and May.</p>
+</section>
+<section id="rovers-paid-the-price-for-failing-to-pick-off-the-divisions-worst-teams-away-from-home" class="level2">
+<h2 class="anchored" data-anchor-id="rovers-paid-the-price-for-failing-to-pick-off-the-divisions-worst-teams-away-from-home">4. Rovers paid the price for failing to pick off the division’s worst teams away from home</h2>
+<p>We’ve established that Tranmere’s wretched away form was a major barrier to success.</p>
+<p>But perhaps the most baffling – and costly – aspect was their inability to pick up points when visiting the worst sides in the division.</p>
+<p>Rovers averaged just one point from each of their games against the eight worst sides in the division.</p>
+<p>Bottom club Scunthorpe United managed just four wins all season as they meakly succumbed to relegation. To nobody’s surprise, one of those came when Tranmere visited Glanford Park.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>2022/23</category>
+  <guid>https://petebrown.codes/posts/2022-league-demise/index.html</guid>
+  <pubDate>Sun, 24 Jul 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://petebrown.codes/posts/2022-league-demise/phil-kiel-nPI3y9Qiu1g-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Rise and Fall of Friday Night Football on the Wirral</title>
+  <dc:creator>Pete Brown</dc:creator>
+  <link>https://petebrown.codes/posts/friday-night-football/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>“Friday night football at Prenton Park returns!” screamed Tranmere Rovers’ <a href="https://twitter.com/TranmereRovers/status/1544697784984633344">official Twitter account</a> last Wednesday.</p>
+<p>Sky Sports commentator Rob Palmer captured the mood of many nostalgic Rovers fans. “Brilliant news,” he <a href="https://twitter.com/robbopalmer/status/1544700737069977604">replied</a>. “Returning to traditions.”</p>
+<p>Friday night football is a curious quirk of Merseyside’s third club.</p>
+<p>While the rest of the football pyramid’s weekend fixtures have traditionally kicked off at 3pm on a Saturday, Tranmere became infamous for bucking the trend and hosting games under the Prenton Park floodlights before the weekend had even started.</p>
+<p>“Friday Night is Prenton Night,” as the marketing slogan put it.</p>
+<p>Iain St.&nbsp;John and Jimmy Greaves, hosts of ITV’s beloved Saturday football show Saint and Greavsie, tagged Rovers their “Friday night favorites”. Cult band Half Man Half Biscuit even immortalized the tradition in a song, Friday Nights and the Gates are Low.</p>
+<p>As football writer Jon Allen noted in his recent book, “For most football people, particularly those of a certain generation, Tranmere Rovers means two things: Friday night football and Johnny King and his ‘trip to the moon’.”</p>
+<p>The association with King is understandable. Many of Rovers’ most celebrated Friday night victories occurred under the legendary’s manager’s stewardship – perhaps most famously the <a href="https://www.youtube.com/watch?v=ReVk_gkc1gQ">5-2 mauling of West Ham United</a> in 1992/93, when Rovers looked destined to reach the promised land of the Premier League.</p>
+<p>But while King took charge of far more Friday league games than any other manager in the club’s history, it is another former gaffer – Dave Russell – that is credited with masterminding the initiative.</p>
+<p>Russell conceived of the idea shortly after arriving from Bury in December 1961.</p>
+<p>His logic was simple and sound: By avoiding a clash with Rovers’ glamorous neighbors across the River Mersey – Everton and Liverpool – the club might be able to attract more supporters and generate bigger gate receipts.</p>
+<p>The first such occasion, a 3-1 victory over local rivals Southport on Friday, January 19, 1962, marked the beginning of what would become an institution of Merseyside football culture.</p>
+<p>At its peak, Rovers played 16 of their 23 home league games on Fridays. That happened in consecutive seasons under Russell – 1965/66 and 1966/67 – and again in 1972/73, when Ron Yeats was in charge.</p>
+<p>That King would go on to take charge of 136 Friday games during his two spells shows the tradition continued well after Russell departed the Prenton Park hottest in 1969.</p>
+<p>But Friday Night Football has become something of a novelty in more recent years.</p>
+<p>Thirty seasons have now passed since the number of Friday games in a season reached double figures.</p>
+<p>Both John King and Dave Russell have exceptional records in Friday night matches. King’s sides collected an average of 1.9 points from his 136 games, while Russell managed 1.98 from 96.</p>
+<p>However, four managers achieved even better returns.</p>
+<p>Most prolific was Bert Cooke, who won a staggering 2.43 points per game.</p>
+<p>Of course the crucial caveat is that these managers took charge of considerably fewer games than King or Russell.</p>
+<p>The current manager, Micky Mellon, currently boasts the fourth-best record. The Scot averages an impressive two points-per-game.</p>
+<p>However, that equates to a 14 point haul from seven games.</p>
+<p>Sadly for Rovers fans, the demise of Friday Night Football means neither Mellon, nor any future manager, will ever get the opportunity to experience anything like as many Friday nights under the lights as their legendary predecessors.</p>
+
+
+
+ ]]></description>
+  <category>friday night football</category>
+  <guid>https://petebrown.codes/posts/friday-night-football/index.html</guid>
+  <pubDate>Sun, 10 Jul 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://petebrown.codes/posts/friday-night-football/phil-kiel-nSLpAwGQZOE-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

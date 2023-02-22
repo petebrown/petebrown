@@ -4,16 +4,22 @@ project:
 
 website:
   title: "The Nevin Scoop"
+  site-url: https://petebrown.codes
+  description: "Pete Brown's blog, mostly compromised of data analysis of Tranmere Rovers using Python and R."
   navbar:
     right:
+      - archive.qmd
       - about.qmd
+      - icon: rss
+        href: sitemap.xml
       - icon: github
         href: https://github.com/petebrown
       - icon: twitter
         href: https://twitter.com/beteprown
 format:
   html:
-    theme: flatly
-    css: styles.css
-    mainfont: sans-serif
-    fontsize: 1.0em
+    # theme: flatly
+    theme: theme.scss
+    #css: theme.css
+    header-includes: <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" type="text/css"/>
+    mainfont: "Helvetica Neue, Open Sans"

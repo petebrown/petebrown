@@ -1,7 +1,6 @@
 ---
 title: "The Rise and Fall of Friday Night Football on the Wirral"
-description: ""
-author: "Pete Brown"
+description: "Friday night *was* Prenton night?"
 date: "07/10/2022"
 date-modified: "02/21/2023"
 image: phil-kiel-nSLpAwGQZOE-unsplash.jpg

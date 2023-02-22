@@ -1,7 +1,6 @@
 ---
-title: "Opening day starters disappear"
-description: "Post description"
-author: "Pete Brown"
+title: "Rovers fans won't have much love for Valentine's Day"
+description: "No wins on February 14 since 1976."
 date: "02/21/2023"
 categories: [analysis]
 draft: true
