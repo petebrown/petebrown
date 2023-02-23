@@ -9,6 +9,10 @@ categories:
 draft: false
 ---
 
+::: {.callout-note collapse="true"}
+This piece was originally prepared for a [Lede Program](https://ledeprogram.com) project in July 2022.
+:::
+
 Micky Mellon's sides usually thrive once the January transfer window has closed.
 
 In the 2018/19, new boys David Perkins, Kieron Morris, Ben Pringle and Sid Nelson sparked an upturn in form that culminated in promotion.

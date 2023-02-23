@@ -30,7 +30,7 @@ $primary:  #06436ef2 !default;
     font-size: $font-size-base * 0.8;
 }
 
-.page-layout-article main.content p:first-of-type {
+.page-layout-article main.content > p:first-of-type  {
     font-weight: bold;
 }
 
@@ -76,6 +76,6 @@ div.quarto-post .thumbnail img {
     }
 }
 
-.chart .dw-chart-header .headline-block block-inner {
-    font-family: 'Open Sans' !important;
+.callout.callout-style-default>div.callout-header, .callout.callout-style-default .callout-body {
+    font-size: smaller;
 }
