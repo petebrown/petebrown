@@ -3,7 +3,7 @@ title: "2021/22: Tranmere's slide down the league table, explained in four chart
 description: "Four areas Micky Mellon needs to improve on in 2022/23"
 date: "07/24/2022"
 date-modified: "02/22/2023"
-image: phil-kiel-1a3_WaRxb58-unsplash.jpg
+image: phil-kiel-nPI3y9Qiu1g-unsplash.jpg
 categories:
     - 2022/23
 draft: false
