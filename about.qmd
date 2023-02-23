@@ -13,7 +13,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/pete-brown-b49412108/
-    - icon: envelope
+    - icon: envelope-open
       text: Email
       href: hello@petebrown.codes
 
