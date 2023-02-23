@@ -10,7 +10,86 @@
 <atom:link href="https://petebrown.codes/index.xml" rel="self" type="application/rss+xml"/>
 <description>Pete Brown&#39;s blog, mostly compromised of data analysis of Tranmere Rovers using Python and R.</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Sun, 24 Jul 2022 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 21 Feb 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Rovers have been in a loveless relationship with Valentine’s Day fixtures for almost half a century</title>
+  <dc:creator>Pete Brown</dc:creator>
+  <link>https://petebrown.codes/posts/valentines-day/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://www.youtube.com/watch?v=5prUz5110r4">Bradford</a></p>
+<p>Last Tuesday’s 2-0 reverse at Valley Parade</p>
+<p>This was Rovers’ sixteenth Valentine’s Day fixture, the first being a home game with Barrow in 1925.</p>
+<p>At first glance, the club’s record doesn’t look bad.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">P</th>
+<th style="text-align: center;">W</th>
+<th style="text-align: center;">D</th>
+<th style="text-align: center;">L</th>
+<th style="text-align: center;">GF</th>
+<th style="text-align: center;">GA</th>
+<th style="text-align: center;">Points</th>
+<th style="text-align: center;">PPG</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">1.625</td>
+</tr>
+</tbody>
+</table>
+<p>However, six of those wins game in Rovers first eight Valentine’s Day fixtures.</p>
+<p>The most recent win came in 2004 - when goals from Ryan Taylor and Iain Hume earned a 2-1 win over Swansea City in the FA Cup fifth round.</p>
+<p>(Click play to go straight to Hume’s screamer. It’s worth it.)</p>
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/dYcRGLi0SdQ?start=1063" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Rovers haven’t won a league game on Valentine’s Day for 47 years&gt; The last was a 1-0 victory at Brentford in 1976.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">P</th>
+<th style="text-align: center;">W</th>
+<th style="text-align: center;">D</th>
+<th style="text-align: center;">L</th>
+<th style="text-align: center;">GF</th>
+<th style="text-align: center;">GA</th>
+<th style="text-align: center;">Points</th>
+<th style="text-align: center;">PPG</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0.5</td>
+</tr>
+</tbody>
+</table>
+<p>The least romantic Valentine’s Day treat? A case can surely be made for the 0-0 draw away at Carlisle United on a Tuesday night in the dying embers of Les Parry’s reign.</p>
+
+
+
+ ]]></description>
+  <category>Valentine&#39;s Day</category>
+  <guid>https://petebrown.codes/posts/valentines-day/index.html</guid>
+  <pubDate>Tue, 21 Feb 2023 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>2021/22: Tranmere’s slide down the league table, explained in four charts</title>
   <dc:creator>Pete Brown</dc:creator>
@@ -68,7 +147,7 @@
   <category>2022/23</category>
   <guid>https://petebrown.codes/posts/2022-league-demise/index.html</guid>
   <pubDate>Sun, 24 Jul 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://petebrown.codes/posts/2022-league-demise/phil-kiel-nPI3y9Qiu1g-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://petebrown.codes/posts/2022-league-demise/phil-kiel-1a3_WaRxb58-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Rise and Fall of Friday Night Football on the Wirral</title>
