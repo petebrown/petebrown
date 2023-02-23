@@ -9,7 +9,8 @@ categories:
 draft: false
 ---
 
-::: {.callout-note collapse="true" callout-appearance="simple" }
+::: {.callout-note collapse="true" appearance="simple"}
+## Note
 This piece was originally prepared for a [Lede Program](https://ledeprogram.com) project in July 2022.
 :::
 
