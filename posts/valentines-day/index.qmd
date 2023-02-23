@@ -2,8 +2,9 @@
 title: "Rovers have been in a loveless relationship with Valentine's Day fixtures for almost half a century"
 description: "No league wins on February 14 since 1976."
 date: "02/21/2023"
+image: phil-kiel-nPI3y9Qiu1g-unsplash.jpg
 categories: [Valentine's Day]
-draft: true
+draft: false
 ---
 [Bradford](https://www.youtube.com/watch?v=5prUz5110r4)
 
