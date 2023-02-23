@@ -20,9 +20,9 @@ website:
           href: apps/managers-all
         - text: "Managerial records: Individual managers"
           href: apps/managers
-        - text: "Attendance: Overall records"
+        - text: "Attendances: Overall records"
           href: apps/attendances
-        - text: "Attendances: Compare records by season"
+        - text: "Attendances: Compare by season"
           href: apps/attendances-by-season
       - archive.qmd
       - about.qmd
