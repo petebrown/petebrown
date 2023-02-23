@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://petebrown.codes/posts/2022-league-demise/index.html</loc>
-    <lastmod>2023-02-23T15:13:43.610Z</lastmod>
+    <lastmod>2023-02-23T15:20:44.006Z</lastmod>
   </url>
   <url>
     <loc>https://petebrown.codes/index.html</loc>
-    <lastmod>2023-02-23T15:13:44.000Z</lastmod>
+    <lastmod>2023-02-23T15:18:18.195Z</lastmod>
   </url>
   <url>
     <loc>https://petebrown.codes/posts/friday-night-football/index.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://petebrown.codes/archive.html</loc>
-    <lastmod>2023-02-23T15:13:44.326Z</lastmod>
+    <lastmod>2023-02-23T15:18:18.543Z</lastmod>
   </url>
   <url>
     <loc>https://petebrown.codes/about.html</loc>
@@ -51,5 +51,13 @@
   <url>
     <loc>https://petebrown.codes/posts/2022-home-vs-away/index.html</loc>
     <lastmod>2023-02-23T03:59:51.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://petebrown.codes/apps/attendances/index.html</loc>
+    <lastmod>2023-02-23T15:49:01.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://petebrown.codes/apps/attendances-by-season/index.html</loc>
+    <lastmod>2023-02-23T15:49:01.329Z</lastmod>
   </url>
 </urlset>
