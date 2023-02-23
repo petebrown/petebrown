@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>The Nevin Scoop @ petebrown.codes</title>
+<title>**The Nevin Scoop** | petebrown.codes</title>
 <link>https://petebrown.codes/index.html</link>
 <atom:link href="https://petebrown.codes/index.xml" rel="self" type="application/rss+xml"/>
 <description>Pete Brown&#39;s blog, mostly compromised of data analysis of Tranmere Rovers using Python and R.</description>
@@ -192,7 +192,7 @@
   <media:content url="https://petebrown.codes/posts/friday-night-football/phil-kiel-nSLpAwGQZOE-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>The team with the best home record rarely fails to make the play-offs. Somehow Tranmere contrived to do just that.</title>
+  <title>The team with the best home record rarely fails to make the play-offs. In 2021/22, Tranmere contrived to do just that.</title>
   <dc:creator>Pete Brown</dc:creator>
   <link>https://petebrown.codes/posts/2022-home-vs-away/index.html</link>
   <description><![CDATA[ 
