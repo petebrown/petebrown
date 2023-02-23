@@ -1,7 +1,7 @@
 ---
-title: "Season Progress Tracker"
-description: "Shiny web app to track and compare Tranmere's league performance across any season from 1921 to present."
-date: "02/22/2023"
+title: ""
+description: ""
+date: ""
 draft: false
 page-layout: custom
 ---
