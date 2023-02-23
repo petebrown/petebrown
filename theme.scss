@@ -90,3 +90,7 @@ div.quarto-post .thumbnail img {
         font-size: smaller;
     }
 }
+
+.callout.callout-style-simple:not(.no-icon) div.callout-icon-container {
+    padding-top: 0;
+}
