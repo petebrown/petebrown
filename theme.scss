@@ -81,4 +81,12 @@ div.quarto-post .thumbnail img {
 
 .callout-caption-container.flex-fill {
     font-weight: 400;
+    font-size: smaller;
+}
+
+.callout-note.callout {
+    .callout-caption-container, .callout-body-container.callout-body {
+        font-weight: 400;
+        font-size: smaller;
+    }
 }
