@@ -4,7 +4,33 @@ description: "Rovers' record at Donny is almost as bad as it at Barnsley."
 author: "Pete Brown"
 date: "02/22/2023"
 categories:
-    - on the road
+    - On the road
 draft: true
 ---
 
+teams against we've played at least 10 away games in the league, 
+
+|                   | P  | W | D  | L  | GF | GA | Win % |
+|-------------------|----|---|----|----|----|----|------:|
+| Barnsley          | 26 | 0 | 11 | 15 | 18 | 50 |     0.0% |
+| **Doncaster Rovers**  | **35** | **2** | **12** | **21** | **23** | **70** |  **5.7%**|
+| Watford           | 15 | 1 | 4  | 10 | 15 | 32 |  6.7% |
+
+
+won twice in 35 trips
+
+5.71%
+
+Went 19 straight visits without a win between 1924 and 1964
+
+Another 51 years... Brian Little's win in October 2005 ended a run of ten winless visits to Doncaster (Steve Davies and Steve Jennngs)
+
+Only team we have a worse win percentage in the league is Donny's South Yorkshire neighbours Barnsley
+
+Try it for yourself in the [Head-to-Head app](/apps/head2head-all/):
+
+![](bogey-grounds.gif)
+
+To torture yourself further, go to the [Head-to-Head: Individual teams app](/apps/head2head/) and choose Doncaster Rovers from the drop-down menu:
+
+![](doncaster-record.gif)

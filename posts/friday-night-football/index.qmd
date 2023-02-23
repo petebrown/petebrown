@@ -5,7 +5,7 @@ date: "07/10/2022"
 date-modified: "02/21/2023"
 image: phil-kiel-nSLpAwGQZOE-unsplash.jpg
 categories:
-    - friday night football
+    - Friday night football
 draft: false
 ---
 
