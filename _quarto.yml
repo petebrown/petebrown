@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "The Nevin Scoop @ petebrown.codes"
+  title: "**The Nevin Scoop** | petebrown.codes"
   site-url: https://petebrown.codes
   description: "Pete Brown's blog, mostly compromised of data analysis of Tranmere Rovers using Python and R."
   navbar:
