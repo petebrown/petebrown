@@ -2,7 +2,7 @@
 title: "Rovers have been in a loveless relationship with Valentine's Day for almost 50 years"
 description: "It's now no league wins on February 14 since 1976."
 date: "02/21/2023"
-image: /images/phil-kiel-pstB-I7uIyo-unsplash.jpg
+image: /images/phil-kiel-IurDSlCMyAU-unsplash-crop.jpg
 categories: [Valentine's Day]
 draft: false
 ---

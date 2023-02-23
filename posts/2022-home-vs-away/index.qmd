@@ -3,7 +3,7 @@ title: "The team with the best home record rarely fails to make the play-offs. I
 description: "Analysis of the disparity between Rovers' home and away record last season."
 date: "06/26/2022"
 date-modified: "02/22/2023"
-image: /images/phil-kiel-1a3_WaRxb58-unsplash.jpg
+image: /images/phil-kiel-1a3_WaRxb58-unsplash-crop.jpg
 categories:
     - 2022/23
     - On the road
