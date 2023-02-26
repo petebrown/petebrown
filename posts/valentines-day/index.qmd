@@ -11,26 +11,26 @@ draft: false
 
 Last Tuesday's 2-0 reverse at Valley Parade
 
-This was Rovers' sixteenth Valentine's Day fixture, the first being a home game with Barrow in 1925.
+This was Rovers' sixteenth Valentine's Day fixture. The first was a home game with Barrow in 1925.
 
 At first glance, the club's record doesn't look bad.
 
-|  P  |  W  |  D  |  L  | GF  | GA  | Points |  PPG  |
-|:---:|:---:|:---:|:---:|:---:|:---:|:------:|:-----:|
-| 16  |  7  |  5  |  4  | 21  | 15  |   26   | 1.625 |
+|  P  |  W  |  D  |  L  | GF  | GA  |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16  |  7  |  5  |  4  | 21  | 15  |
 
-However, six of those wins game in Rovers first eight Valentine's Day fixtures.
+However, six of those wins game came in Rovers' first eight Valentine's Day fixtures.
 
-The most recent win came in 2004 - when goals from Ryan Taylor and Iain Hume earned a 2-1 win over Swansea City in the FA Cup fifth round.
-
-(Click play to go straight to Hume's screamer. It's worth it.)
-
-{{< video https://www.youtube.com/embed/dYcRGLi0SdQ start="1063" >}}
+The most recent win came in 2004 - when goals from Ryan Taylor and Iain Hume earned a 2-1 win over Swansea City in the FA Cup fifth round. (Click play below to go straight to Hume's screamer. It's worth it.)
 
 Rovers haven't won a league game on Valentine's Day for 47 years\> The last was a 1-0 victory at Brentford in 1976.
+
+In the six games since, the run of form has look something like: 💔 💔 🤍 💔 🤍 🤍
 
 |  P  |  W  |  D  |  L  | GF  | GA  | Points | PPG |
 |:---:|:---:|:---:|:---:|:---:|:---:|:------:|:---:|
 |  6  |  0  |  3  |  3  |  2  |  7  |   3    | 0.5 |
 
-The least romantic Valentine's Day treat? A case can surely be made for the 0-0 draw away at Carlisle United on a Tuesday night in the dying embers of Les Parry's reign.
+The bleakest Valentine's Day? A case can surely be made for the 0-0 draw away at Carlisle United on a Tuesday night in the dying embers of Les Parry's reign.
+
+{{< video https://www.youtube.com/embed/dYcRGLi0SdQ start="1063" >}}

@@ -12,3 +12,6 @@ author: 'Pete Brown'
 # Table of content settings
 toc: true
 toc-depth: 3
+
+# Default fields for citation
+citation: true

@@ -34,9 +34,7 @@ website:
         href: sitemap.xml
 format:
   html:
-    # theme: flatly
     theme: theme.scss
-    #css: theme.css
     mainfont: "Helvetica Neue, Open Sans"
     title-block-style: default
     title-block-banner: 'white'
