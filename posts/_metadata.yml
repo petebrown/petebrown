@@ -14,4 +14,4 @@ toc: true
 toc-depth: 3
 
 # Default fields for citation
-citation: true
+citation: false

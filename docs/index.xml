@@ -156,7 +156,18 @@ Note
 
 </section>
 
- ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{brown2022,
+  author = {Pete Brown},
+  title = {2021/22: {Tranmere’s} Slide down the League Table, Explained
+    in Four Charts},
+  date = {2022-07-24},
+  url = {https://petebrown.codes/posts/2022-league-demise},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-brown2022" class="csl-entry quarto-appendix-citeas">
+Pete Brown. 2022. <span>“2021/22: Tranmere’s Slide down the League
+Table, Explained in Four Charts.”</span> July 24, 2022. <a href="https://petebrown.codes/posts/2022-league-demise">https://petebrown.codes/posts/2022-league-demise</a>.
+</div></div></section></div> ]]></description>
   <category>2022/23</category>
   <guid>https://petebrown.codes/posts/2022-league-demise/index.html</guid>
   <pubDate>Sun, 24 Jul 2022 04:00:00 GMT</pubDate>
