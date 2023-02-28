@@ -9,7 +9,7 @@
 <link>https://petebrown.codes/index.html</link>
 <atom:link href="https://petebrown.codes/index.xml" rel="self" type="application/rss+xml"/>
 <description>Pete Brown&#39;s blog, mostly compromised of data analysis of Tranmere Rovers using Python and R.</description>
-<generator>quarto-1.2.313</generator>
+<generator>quarto-1.2.335</generator>
 <lastBuildDate>Tue, 21 Feb 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Rovers have been in a loveless relationship with Valentine’s Day for almost 50 years</title>
