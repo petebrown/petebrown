@@ -222,18 +222,24 @@ Me me me me me me
 <div class="card mb-3">
     <div class="card-body">
         <h3 class="card-title">Attendance Records</h3>
-        <h6 class="card-subtitle text-muted">Blah blah blah</h6>
+        <h6 class="card-subtitle text-muted">View high-level attendance records dating back to 1921/22</h6>
     </div>
     <a href="apps/attendances" class="stretched-link"></a>
     <img src="/images/app-demos/demo-attendances.gif"/>
     <div class="card-body">
-        <p class="card-text">Blurb blurb blurb.</p>
+        <p class="card-text"><b><i>Sentence of blurb...</i></b></p>
+        <ul>
+            <li>Highest home league attendances by season, 1921/22-present</li>
+            <li>Average attendances by decade</li>
+            <li>Attendances gathered into 5k groups</li>
+            <li>Top 50 home attendances in any competition</li>
+            <li>Top 50 attendances in any competition at any venue</li>
+        </ul>
         <h5>Key features:</h5>
     </div>
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">Blah</li>
-        <li class="list-group-item">Blah</li>
-        <li class="list-group-item">Blah</li>
+        <li class="list-group-item">Quick view data available for every seasons (hover cursor over point for desired season)</li>
+        <li class="list-group-item">Highlight and zoom in on specific seasons on chart</li>
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
@@ -258,6 +264,7 @@ Me me me me me me
     <img src="/images/app-demos/demo-attendances-by-season.gif"/> -->
     <img src="/images/app-demos/demo-attendances-by-season-static.png" onmouseover="this.src='/images/app-demos/demo-attendances-by-season.gif'" onmouseout="this.src='/images/app-demos/demo-attendances-by-season-static.png'">
     <div class="card-body">
+        <p><b><i>Sentence of blurb...</i></b></p>
         <p class="card-text">Dashboard returns:</p>
         <ul>
             <li>Sortable tables displaying average, median, high and low attendance records for selected seasons.
@@ -265,7 +272,6 @@ Me me me me me me
         <h5>Key features:</h5>
     </div>
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">Detailed quick view data available for every match in charts (hover cursor over desired point)</li>
         <li class="list-group-item">Filter available to restrict comparison to equivalent of most recent game (only applies to selections involving the current season)</li>
     </ul>
     <div class="card-body tools-used">
