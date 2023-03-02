@@ -1,14 +1,282 @@
 ---
-title: "Latest scoops"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [date, image, title, reading-time, description, categories]
-  feed: true
 page-layout: full
-title-block-banner: false
 ---
+
+::: grid
+::: {.g-col-12 .g-col-md-6}
+![](images/profile-image.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+# Blurb blurb blurb
+
+Me me me me me me
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Season Tracker</h3>
+        <h6 class="card-subtitle text-muted">Compare game-by-game progress for seasons from 1921/22 to present</h6>
+    </div>
+    <!-- <a href="apps/season-tracker" class="stretched-link"></a> -->
+    <!-- <img src="/images/app-demos/demo-seasons.gif"/> -->
+    <img src="/images/app-demos/demo-seasons-static.jpg" onmouseover="this.src='/images/app-demos/demo-seasons.gif'" onmouseout="this.src='/images/app-demos/demo-seasons-static.jpg'">
+    <div class="card-body">
+        <p class="card-text">Dynamic dashboard for comparing Tranmere's game-by-game progress in any season since 1921/22.</p>
+        <p>Charts available for:</p>
+        <ul>
+            <li>League position</li>
+            <li>Point accumulation</li>
+            <li>Points-per-game</li>
+        </ul>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Detailed quick view data available for every match in charts (hover cursor over desired point)</li>
+        <li class="list-group-item">Full home and away records for each selected season</li>
+        <li class="list-group-item">Details of streaks for selected season (consecutive wins, losses, clean sheets, etc.)</li>
+        <li class="list-group-item">Sortable table containing records for every league game played in selected seasons</li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>Plotly</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Pandas</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Head-to-Head Records</h3>
+        <h6 class="card-subtitle text-muted">Compare Tranmere's overall records against all opponents encountered since 1921</h6>
+    </div>
+    <!-- <a href="apps/head2head-all" class="stretched-link"></a> -->
+    <!-- <img src="/images/app-demos/demo-head2head-all.gif"/> -->
+    <img src="/images/app-demos/demo-head2head-all-static.jpg" onmouseover="this.src='/images/app-demos/demo-head2head-all.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-all-static.jpg'">
+    <div class="card-body">
+        <p class="card-text">Dynamic dashboard to view high-level data for Tranmere's records against all opponents encountered in any competition since 1921/22.</p>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Sortable table summarizing Tranmere's overall record in all selected competitions</li>
+        <li class="list-group-item">Filters available for:
+            <ul>
+                <li>Season range</li>
+                <li>League tiers</li>
+                <li>Cup competitions</li>
+                <li>Venues</li>
+                <li>Minimum no. of meetings</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Head-to-Head: Individual Teams</h3>
+        <h6 class="card-subtitle text-muted">Get a detailed breakdown of Tranmere's record against any opponent encountered since 1921/22</h6>
+    </div>
+    <!-- <a href="apps/head2head" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-head2head.gif"/> -->
+    <img src="/images/app-demos/demo-head2head-static.png" onmouseover="this.src='/images/app-demos/demo-head2head.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-static.png'">
+    <div class="card-body">
+        <p class="card-text">Select an opponent from the dropdown menu to view a detailed breakdown of Tranmere's record in games played since 1921.</p>
+        <p>Dashboard returns data for:</p>
+        <ul>
+            <li>Overall record vs. opponent</li>
+            <li>Record vs. opponent by venue</li>
+            <li>Record vs. opponent by competition</li>
+            <li>Managerial records vs. opponent</li>
+            <li>Longest streaks vs. opponent (consecutive wins, unbeaten run, winless, etc.)</li>
+            <li>Current streaks vs. opponent</li>
+            <li>Sortable table containing records for every meeting with opponent</li>
+        </ul>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Filters available for:
+            <ul>
+                <li>Season range</li>
+                <li>League tiers</li>
+                <li>Cup competitions</li>
+                <li>Venues</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>Plotly</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Managerial Records</h3>
+        <h6 class="card-subtitle text-muted">Compare overall records of every Tranmere manager since 1921</h6>
+    </div>
+    <a href="apps/managers-all" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-managers-all.gif"/>
+    <div class="card-body">
+        <p class="card-text">Sortable table summarizing every Tranmere managers' overall record in all selected competitions</p>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Sortable table summarizing each Tranmere manager's overall record in all selected competitions</li>
+        <li class="list-group-item">Each manager's longest streaks (consecutive wins, unbeaten run, winless, etc.)</li>
+        <li class="list-group-item">Filters available for:
+            <ul>
+                <li>Season range</li>
+                <li>League tiers</li>
+                <li>Cup competitions</li>
+                <li>Venues</li>
+                <li>Minimum no. of games managed</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Managerial Records: Individual Managers</h3>
+        <h6 class="card-subtitle text-muted">Get a detailed breakdown of any Tranmere manager's record</h6>
+    </div>
+    <a href="apps/managers" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-managers.gif"/>
+    <div class="card-body">
+        <p class="card-text">Select a manager from the dropdown menu to view a detailed breakdown of their record in games played since 1921.</p>
+        <p>Dashboard returns data for:</p>
+        <ul>
+            <li>Manager's overall record vs. opponent</li>
+            <li>Manager's record by venue</li>
+            <li>Manager's record by competition</li>
+            <li>Manager's record by league tier</li>
+            <li>Managerial records by opponent</li>
+            <li>Manager's longest streaks (consecutive wins, unbeaten run, winless, etc.)</li>
+            <li>Sortable table containing records for every game managed by manager</li>
+        </ul>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Filters available for:
+            <ul>
+                <li>Season range</li>
+                <li>League tiers</li>
+                <li>Cup competitions</li>
+                <li>Venues</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>Plotly</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Attendance Records</h3>
+        <h6 class="card-subtitle text-muted">Blah blah blah</h6>
+    </div>
+    <a href="apps/attendances" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-attendances.gif"/>
+    <div class="card-body">
+        <p class="card-text">Blurb blurb blurb.</p>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Blah</li>
+        <li class="list-group-item">Blah</li>
+        <li class="list-group-item">Blah</li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>Plotly</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+```{=html}
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Attendances by Season</h3>
+        <h6 class="card-subtitle text-muted">Compare game-by-game attendances for league fixtures in seasons from 1921/22 to present</h6>
+    </div>
+    <!-- <a href="apps/attendances-by-season" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-attendances-by-season.gif"/> -->
+    <img src="/images/app-demos/demo-attendances-by-season-static.png" onmouseover="this.src='/images/app-demos/demo-attendances-by-season.gif'" onmouseout="this.src='/images/app-demos/demo-attendances-by-season-static.png'">
+    <div class="card-body">
+        <p class="card-text">Dashboard returns:</p>
+        <ul>
+            <li>Sortable tables displaying average, median, high and low attendance records for selected seasons.
+        </ul>
+        <h5>Key features:</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Detailed quick view data available for every match in charts (hover cursor over desired point)</li>
+        <li class="list-group-item">Filter available to restrict comparison to equivalent of most recent game (only applies to selections involving the current season)</li>
+    </ul>
+    <div class="card-body tools-used">
+        <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>Plotly</a>
+        <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
+        <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
+        <button class="btn-sm btn-outline-warning" disabled>Requests</a>
+        <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+    </div>
+</div>
+```
+:::
+:::

@@ -4,6 +4,16 @@ $primary:  #06436ef2 !default;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 /*-- scss:rules --*/
+.navbar-brand {
+    @media(max-width: 390px) {
+        font-size: small;
+    }
+
+    @media(max-width: 515px) {
+        font-size: smaller;
+    }
+}
+
 #quarto-header {
     border-bottom: 1px solid #dee2e6;
 }
@@ -39,7 +49,7 @@ $primary:  #06436ef2 !default;
 }
 
 .navbar-title, .nav-item .menu-text, .dropdown-item {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Helvetica', 'Helvetica Neue';
     font-weight: lighter;
 }
 
@@ -94,4 +104,26 @@ div.quarto-post .thumbnail img {
 
 .callout.callout-style-simple:not(.no-icon) div.callout-icon-container {
     padding-top: 0;
+}
+
+.card {
+    border-radius: 0;
+  }
+
+.card-body a.btn.stretched-link {
+    font-size: small;
+}
+
+.card-body h3 {
+    margin-top: 0; // default is 1.5rem
+}
+
+.tools-used {
+    padding: 0.5rem 0.5rem;
+
+    button
+    {
+        margin: 0.2rem;
+        padding: .15rem .25rem;
+    }
 }

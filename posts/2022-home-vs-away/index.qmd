@@ -10,6 +10,11 @@ categories:
 draft: false
 ---
 
+::: {.callout-note collapse="true" appearance="simple"}
+## Note
+This piece was originally prepared for a [Lede Program](https://ledeprogram.com) project in June 2022.
+:::
+
 Tranmere Rovers were imperious at home in 2021/22. With 16 wins from 23 league games at Prenton Park, their home record of 2.21 points per game was comfortably the best in League Two.
 
 A record that strong would normally all but guarantee at least a play-off berth – if not automatic promotion.

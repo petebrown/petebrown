@@ -9,6 +9,11 @@ categories:
 draft: false
 ---
 
+::: {.callout-note collapse="true" appearance="simple"}
+## Note
+This piece was originally prepared for a [Lede Program](https://ledeprogram.com) project in July 2022.
+:::
+
 "Friday night football at Prenton Park returns!" screamed Tranmere Rovers' [official Twitter account](https://twitter.com/TranmereRovers/status/1544697784984633344) last Wednesday.
 
 Sky Sports commentator Rob Palmer captured the mood of many nostalgic Rovers fans. "Brilliant news," he [replied](https://twitter.com/robbopalmer/status/1544700737069977604). "Returning to traditions."

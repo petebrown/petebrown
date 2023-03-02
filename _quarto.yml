@@ -8,6 +8,7 @@ website:
   description: "Pete Brown's blog, mostly compromised of data analysis of Tranmere Rovers using Python and R."
   navbar:
     right:
+      - posts.qmd
       - text: "Apps"
         menu:
         - text: "Season Tracker"

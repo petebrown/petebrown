@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: https://avatars.githubusercontent.com/u/15838790?s=400&u=e7da2294f9902a5b72ffdad43acf83977b7b70f6&v=4
+image: images/profile-image.jpg
 about:
   template: jolla
   links:
