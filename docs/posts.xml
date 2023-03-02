@@ -10,7 +10,7 @@
 <atom:link href="https://petebrown.codes/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Pete Brown&#39;s blog, mostly compromised of data analysis of Tranmere Rovers using Python and R.</description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Sun, 24 Jul 2022 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 24 Jul 2022 05:00:00 GMT</lastBuildDate>
 <item>
   <title>2021/22: Tranmere’s slide down the league table, explained in four charts</title>
   <dc:creator>Pete Brown</dc:creator>
@@ -83,7 +83,7 @@ Note
  ]]></description>
   <category>2022/23</category>
   <guid>https://petebrown.codes/posts/2022-league-demise/index.html</guid>
-  <pubDate>Sun, 24 Jul 2022 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 24 Jul 2022 05:00:00 GMT</pubDate>
   <media:content url="https://petebrown.codes/posts/2022-league-demise/phil-kiel-nPI3y9Qiu1g-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -140,7 +140,7 @@ Note
  ]]></description>
   <category>Friday night football</category>
   <guid>https://petebrown.codes/posts/friday-night-football/index.html</guid>
-  <pubDate>Sun, 10 Jul 2022 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 10 Jul 2022 05:00:00 GMT</pubDate>
   <media:content url="https://petebrown.codes/posts/friday-night-football/phil-kiel-nSLpAwGQZOE-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -200,7 +200,7 @@ Note
   <category>2022/23</category>
   <category>On the road</category>
   <guid>https://petebrown.codes/posts/2022-home-vs-away/index.html</guid>
-  <pubDate>Sun, 26 Jun 2022 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 26 Jun 2022 05:00:00 GMT</pubDate>
   <media:content url="https://petebrown.codes/images/phil-kiel-1a3_WaRxb58-unsplash-crop.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
