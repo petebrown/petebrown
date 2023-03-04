@@ -127,3 +127,7 @@ div.quarto-post .thumbnail img {
         padding: .15rem .25rem;
     }
 }
+
+img.profile-pic {
+    clip-path: circle(50% at 50% 50%);
+}

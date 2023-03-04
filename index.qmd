@@ -1,28 +1,44 @@
 ---
 page-layout: full
+pagetitle: The Nevin Scoop | petebrown.codes
 ---
 
 ::: grid
-::: {.g-col-12 .g-col-md-6}
-![](images/profile-image.jpg)
+::: {.g-col-12 .g-col-md-4}
+![](images/profile-image.jpg){class="profile-pic"}
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-8}
 # Blurb blurb blurb
 
 Me me me me me me
+
+My current project is to digitize and modernize <em><a href="https://www.amazon.co.uk/Tranmere-Rovers-Complete-Gilbert-Upton/dp/1859837115" target="_blank">Tranmere Rovers: A Complete Record</a></em>.
+
+At present, we have:
+
+* All results played since 1921/22.
+* Player data since 1996/97.
+
+Data is automatically updated after every fixture.
+
+:::
+
+::: {.g-col-12}
+# Current Apps
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .g-col-md-6}
+
 ```{=html}
 <div class="card mb-3">
     <div class="card-body">
         <h3 class="card-title">Season Tracker</h3>
         <h6 class="card-subtitle text-muted">Compare game-by-game progress for seasons from 1921/22 to present</h6>
     </div>
-    <!-- <a href="apps/season-tracker" class="stretched-link"></a> -->
-    <!-- <img src="/images/app-demos/demo-seasons.gif"/> -->
-    <img src="/images/app-demos/demo-seasons-static.jpg" onmouseover="this.src='/images/app-demos/demo-seasons.gif'" onmouseout="this.src='/images/app-demos/demo-seasons-static.jpg'">
+    <a href="apps/season-tracker" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-seasons.gif"/>
+    <!-- <img src="/images/app-demos/demo-seasons-static.jpg" onmouseover="this.src='/images/app-demos/demo-seasons.gif'" onmouseout="this.src='/images/app-demos/demo-seasons-static.jpg'"> -->
     <div class="card-body">
         <p class="card-text">Dynamic dashboard for comparing Tranmere's game-by-game progress in any season since 1921/22.</p>
         <p>Charts available for:</p>
@@ -41,12 +57,14 @@ Me me me me me me
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>ggplot2</a>
         <button class="btn-sm btn-outline-info" disabled>Plotly</a>
         <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Pandas</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -59,9 +77,9 @@ Me me me me me me
         <h3 class="card-title">Head-to-Head Records</h3>
         <h6 class="card-subtitle text-muted">Compare Tranmere's overall records against all opponents encountered since 1921</h6>
     </div>
-    <!-- <a href="apps/head2head-all" class="stretched-link"></a> -->
-    <!-- <img src="/images/app-demos/demo-head2head-all.gif"/> -->
-    <img src="/images/app-demos/demo-head2head-all-static.jpg" onmouseover="this.src='/images/app-demos/demo-head2head-all.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-all-static.jpg'">
+    <a href="apps/head2head-all" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-head2head-all.gif"/>
+    <!-- <img src="/images/app-demos/demo-head2head-all-static.jpg" onmouseover="this.src='/images/app-demos/demo-head2head-all.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-all-static.jpg'"> -->
     <div class="card-body">
         <p class="card-text">Dynamic dashboard to view high-level data for Tranmere's records against all opponents encountered in any competition since 1921/22.</p>
         <h5>Key features:</h5>
@@ -84,6 +102,7 @@ Me me me me me me
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -96,9 +115,9 @@ Me me me me me me
         <h3 class="card-title">Head-to-Head: Individual Teams</h3>
         <h6 class="card-subtitle text-muted">Get a detailed breakdown of Tranmere's record against any opponent encountered since 1921/22</h6>
     </div>
-    <!-- <a href="apps/head2head" class="stretched-link"></a>
-    <img src="/images/app-demos/demo-head2head.gif"/> -->
-    <img src="/images/app-demos/demo-head2head-static.png" onmouseover="this.src='/images/app-demos/demo-head2head.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-static.png'">
+    <a href="apps/head2head" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-head2head.gif"/>
+    <!-- <img src="/images/app-demos/demo-head2head-static.png" onmouseover="this.src='/images/app-demos/demo-head2head.gif'" onmouseout="this.src='/images/app-demos/demo-head2head-static.png'"> -->
     <div class="card-body">
         <p class="card-text">Select an opponent from the dropdown menu to view a detailed breakdown of Tranmere's record in games played since 1921.</p>
         <p>Dashboard returns data for:</p>
@@ -125,11 +144,13 @@ Me me me me me me
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>ggplot2</a>
         <button class="btn-sm btn-outline-info" disabled>Plotly</a>
         <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -167,6 +188,7 @@ Me me me me me me
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -207,11 +229,13 @@ Me me me me me me
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>ggplot2</a>
         <button class="btn-sm btn-outline-info" disabled>Plotly</a>
         <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -227,7 +251,7 @@ Me me me me me me
     <a href="apps/attendances" class="stretched-link"></a>
     <img src="/images/app-demos/demo-attendances.gif"/>
     <div class="card-body">
-        <p class="card-text"><b><i>Sentence of blurb...</i></b></p>
+        <p class="card-text">Dashboard replicating charts and data presented in the attendance section of Tranmere Rovers: A Complete Record. Automatically updated after every match.</p>
         <ul>
             <li>Highest home league attendances by season, 1921/22-present</li>
             <li>Average attendances by decade</li>
@@ -238,16 +262,18 @@ Me me me me me me
         <h5>Key features:</h5>
     </div>
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">Quick view data available for every seasons (hover cursor over point for desired season)</li>
+        <li class="list-group-item">Quick view attendance data available for every seasons (hover cursor over point for desired season)</li>
         <li class="list-group-item">Highlight and zoom in on specific seasons on chart</li>
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>ggplot2</a>
         <button class="btn-sm btn-outline-info" disabled>Plotly</a>
         <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```
@@ -260,11 +286,11 @@ Me me me me me me
         <h3 class="card-title">Attendances by Season</h3>
         <h6 class="card-subtitle text-muted">Compare game-by-game attendances for league fixtures in seasons from 1921/22 to present</h6>
     </div>
-    <!-- <a href="apps/attendances-by-season" class="stretched-link"></a>
-    <img src="/images/app-demos/demo-attendances-by-season.gif"/> -->
-    <img src="/images/app-demos/demo-attendances-by-season-static.png" onmouseover="this.src='/images/app-demos/demo-attendances-by-season.gif'" onmouseout="this.src='/images/app-demos/demo-attendances-by-season-static.png'">
+    <a href="apps/attendances-by-season" class="stretched-link"></a>
+    <img src="/images/app-demos/demo-attendances-by-season.gif"/>
+    <!-- <img src="/images/app-demos/demo-attendances-by-season-static.png" onmouseover="this.src='/images/app-demos/demo-attendances-by-season.gif'" onmouseout="this.src='/images/app-demos/demo-attendances-by-season-static.png'"> -->
     <div class="card-body">
-        <p><b><i>Sentence of blurb...</i></b></p>
+        <p>Dynamic dashboard for comparing Tranmere's game-by-game league attendances in any season since 1921/22.</p>
         <p class="card-text">Dashboard returns:</p>
         <ul>
             <li>Sortable tables displaying average, median, high and low attendance records for selected seasons.
@@ -276,11 +302,13 @@ Me me me me me me
     </ul>
     <div class="card-body tools-used">
         <button class="btn-sm btn-outline-info" disabled>DPLYR</a>
+        <button class="btn-sm btn-outline-info" disabled>ggplot2</a>
         <button class="btn-sm btn-outline-info" disabled>Plotly</a>
         <button class="btn-sm btn-outline-info" disabled>R Shiny</a>
         <button class="btn-sm btn-outline-warning" disabled>Beautiful Soup</a>
         <button class="btn-sm btn-outline-warning" disabled>Requests</a>
         <button class="btn-sm btn-outline-warning" disabled>Selenium</a>
+        <button class="btn-sm btn-outline-secondary" disabled>GitHub Actions</a>
     </div>
 </div>
 ```

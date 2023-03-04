@@ -6,6 +6,7 @@ website:
   title: "**The Nevin Scoop** | petebrown.codes"
   site-url: https://petebrown.codes
   description: "Pete Brown's blog, mostly compromised of data analysis of Tranmere Rovers using Python and R."
+  pagetitle: "The Nevin Scoop | petebrown.codes"
   navbar:
     right:
       - posts.qmd

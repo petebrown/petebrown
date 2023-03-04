@@ -1,7 +1,164 @@
 ---
-title: "Opening day starters disappear"
-description: "Post description"
+title: "This is Tranmere's best National League XI according to PPG"
+description: "They fit nicely into a 4-4-2 with a very handy subs' bench"
 author: "Pete Brown"
-date: "02/21/2023"
+date: "03/03/2023"
 draft: true
 ---
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+players <- read_csv("https://raw.githubusercontent.com/petebrown/update-player-stats/main/data/players_df.csv", show_col_types = FALSE) %>%
+    rename(player_id = sb_player_id,
+           game_id = sb_game_id) %>%
+    mutate(player_id = as.numeric(player_id),
+           game_id = str_replace_all(game_id, "tpg",""),
+           game_id = as.numeric(game_id)) %>%
+    select(game_id, game_date, player_id, player_name)
+
+subs <- read_csv("https://raw.githubusercontent.com/petebrown/scrape-events/main/data/subs-and-reds.csv", show_col_types = FALSE)
+
+results <- read_csv("https://raw.githubusercontent.com/petebrown/update-results/main/data/results_df.csv", show_col_types = FALSE) %>%
+       select(game_date, opposition, outcome, league_tier)
+
+df <- players %>%
+    full_join(subs, by = c("game_id", "player_id")) %>%
+    left_join(results, by = "game_date") %>%
+    filter(!is.na(league_tier)) %>%
+    mutate(points = case_when(outcome == "W" ~ 3,
+                              outcome == "D" ~ 1,
+                              TRUE ~ 0),
+           role = case_when(is.na(min_on) ~ "starter",
+                            TRUE ~ "sub")) %>%
+    mutate(mins_played = case_when(role == "starter" & is.na(min_off) ~ 90,
+                                   role == "starter" & !is.na(min_off) ~ min_off,
+                                   role == "starter" & !is.na(min_so) ~ min_so,
+                                   role == "sub" & is.na(min_so) ~ 90 - min_on,
+                                   role == "sub" & !is.na(min_so) ~ min_so - min_on)) %>%
+    select(player_name, game_date, opposition, league_tier, outcome, points, role, min_on, min_off, min_so, mins_played)
+
+nl <- df %>%
+    filter(league_tier == 5)
+
+av_pts <- nl %>%
+    group_by(player_name) %>%
+    filter(role == "starter") %>%
+    summarise(starts = sum(role == "starter"),
+              wins = sum(outcome == "W"),
+              draws = sum(outcome == "D"),
+              losses = sum(outcome == "L"),
+              win_pc = wins / starts,
+              av_pts = sum(points) / starts) %>%
+    filter(starts >= 10) %>%
+    ungroup() %>%
+    mutate(rank = min_rank(desc(av_pts)),
+           win_pc = str_glue("{round(win_pc * 100, 0)}%")) %>%
+    arrange(desc(av_pts), desc(win_pc)) %>%
+    mutate(av_pts = round(av_pts, 2),
+           ssn_pts = av_pts * 46)
+```
+
+### Who makes Rovers' National League All-Star XI?
+```{r}
+#| echo: false
+#| message: false
+
+starters <- av_pts %>%
+    select(rank, player_name, starts, av_pts, ssn_pts) %>%
+    rename(Rank = rank,
+           Player = player_name,
+           Starts = starts,
+           PPG = av_pts) %>%
+    filter(Rank <= 10 | Player == "Scott Davies")
+
+starters %>%
+    select(-ssn_pts) %>%
+    knitr::kable() %>%
+    kable_styling(bootstrap_options = "striped", "responsive", full_width = F, position = "center")
+```
+
+Davies
+
+Vaughan - Ihiekwe - Buxton - Clarke
+
+Dawson - Hughes - Maynard - Tollitt
+
+Jennings
+
+Cook
+
+### Who's on the bench?
+
+The next five make a very handy subs' bench, particularly if we're chasing a game.
+
+```{r}
+#| echo: false
+#| message: false
+
+subs <- av_pts %>%
+    select(rank, player_name, starts, av_pts) %>%
+    rename(Rank = rank,
+           Player = player_name,
+           Starts = starts,
+           PPG = av_pts) %>%
+    filter(Rank >= 11 & Rank <= 16 & Player != "Scott Davies")
+    
+subs %>%
+    knitr::kable() %>%
+    kable_styling(bootstrap_options = "striped", "responsive", full_width = F, position = "center")
+```
+
+### Where would this team have finished in the table?
+
+Over a 46 game season, this XI would have accumulated an average of `r round(mean(starters$ssn_pts), 2)` points.
+
+In 2017/18, the season Rovers finally secured promotion via the play-offs, 93 points would have been enough to pip Macclesfield Town to the championship by one point.
+
+| Season  | Position for 93 points | Actual finish   |
+|---------|------------------------|-----------------|
+| 2015/16 | 2nd                    | 6th (78 points) |
+| 2016/17 | 3rd                    | 2nd (95 points) |
+| 2017/18 | 1st                    | 2nd (82 points) |
+
+### Here's the XI that played the most minutes in the National League
+```{r}
+#| echo: false
+#| message: false
+
+most_mins <- df %>%
+    filter(league_tier == 5) %>%
+    group_by(player_name) %>%
+    summarise(total_mins = sum(mins_played)) %>%
+    arrange(desc(total_mins)) %>%
+    ungroup() %>%
+    mutate(rank = min_rank(desc(total_mins))) %>%
+    filter(rank <= 11)
+
+most_mins %>%
+    select(rank, player_name, total_mins) %>%
+    rename("Player Name" = player_name,
+           "Total mins" = total_mins,
+           "Rank" = rank) %>%
+    knitr::kable(align = "rlr", format.args = list(big.mark = ",")) %>%
+    kable_styling(bootstrap_options = "striped", "responsive", full_width = F, position = "center")
+```
+
+Davies
+
+Sutton - McNulty - Ihekwe - Ridehalgh
+
+Hughes
+
+Harris - Maynard
+
+Jennings
+
+Norwood - Cook
+
+Ihekwe, Hughes, Maynard, Jennings and Cook
